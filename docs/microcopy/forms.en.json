@@ -1,0 +1,54 @@
+{
+  "enquiry": {
+    "title": "Enquire Now",
+    "labels": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "grade": "Child’s grade",
+      "message": "Message",
+      "consent": "I agree to the Privacy Policy"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "name@example.com",
+      "phone": "+20 1x xxx xxxx",
+      "message": "Tell us a bit about your child"
+    },
+    "errors": {
+      "required": "This field is required",
+      "email": "Enter a valid email",
+      "phone": "Enter a valid phone number",
+      "consent": "Consent is required"
+    },
+    "success": {
+      "title": "Thank you!",
+      "body": "Our Admissions team will contact you shortly. Please check your email."
+    },
+    "cta": "Submit Enquiry"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "labels": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "consent": "I agree to the Privacy Policy"
+    },
+    "placeholders": {
+      "message": "How can we help?"
+    },
+    "errors": {
+      "required": "This field is required",
+      "email": "Enter a valid email",
+      "phone": "Enter a valid phone number",
+      "consent": "Consent is required"
+    },
+    "success": {
+      "title": "Message sent",
+      "body": "We’ll get back to you soon."
+    },
+    "cta": "Send Message"
+  }
+}

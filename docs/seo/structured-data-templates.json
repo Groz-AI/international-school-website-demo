@@ -1,0 +1,54 @@
+{
+  "organization": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "International School in Egypt",
+    "url": "https://example.eg/",
+    "logo": "https://example.eg/assets/logo.svg",
+    "sameAs": []
+  },
+  "school": {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "International School in Egypt",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "Cairo",
+      "addressCountry": "EG"
+    },
+    "telephone": "",
+    "url": "https://example.eg/"
+  },
+  "event": {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "{title}",
+    "startDate": "{startISO}",
+    "endDate": "{endISO}",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "International School in Egypt Campus",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Cairo",
+        "addressCountry": "EG"
+      }
+    },
+    "description": "{description}",
+    "image": ["{imageURL}"]
+  },
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{title}",
+    "datePublished": "{publishedISO}",
+    "dateModified": "{updatedISO}",
+    "author": { "@type": "Organization", "name": "International School in Egypt" },
+    "image": ["{imageURL}"],
+    "mainEntityOfPage": "{url}"
+  }
+}

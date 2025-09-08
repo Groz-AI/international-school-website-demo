@@ -1,0 +1,6 @@
+{
+  "nav": { "home": "Home", "about": "About", "academics": "Academics", "admissions": "Admissions", "studentLife": "Student Life", "newsEvents": "News & Events", "contact": "Contact" },
+  "cta": { "apply": "Apply", "bookTour": "Book a Campus Tour", "contactAdmissions": "Contact Admissions", "enquire": "Enquire" },
+  "hero": { "h1": "Inspiring Global Citizens in Cairo", "sub": "An accredited international education where academic excellence meets character, creativity, and care." },
+  "footer": { "address": "Address", "phone": "Phone", "email": "Email", "whatsapp": "WhatsApp", "privacy": "Privacy Policy", "cookies": "Cookies" }
+}

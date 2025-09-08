@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — International School Egypt (EN)</title>
+  <meta name="description" content="Contact the International School in Egypt. Map, address, phone, WhatsApp, email, and a contact form.">
+  <link rel="alternate" href="../ar/contact.html" hreflang="ar-eg">
+  <link rel="alternate" href="./contact.html" hreflang="en-eg">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="../overrides.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header" role="banner">
+    <div class="container bar">
+      <div class="brand">International School Egypt</div>
+      <nav class="nav" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./academics.html">Academics</a>
+        <a href="./admissions.html">Admissions</a>
+        <a href="./student-life.html">Student Life</a>
+        <a href="./news.html">News & Events</a>
+        <a aria-current="page" href="./contact.html">Contact</a>
+      </nav>
+      <div class="cta-group">
+        <a class="btn btn-secondary" href="https://calendly.com" target="_blank" rel="noopener">Book a Tour</a>
+        <a class="btn btn-primary" href="./admissions.html#enquire">Apply</a>
+        <a class="lang-toggle" href="../ar/contact.html" lang="ar" hreflang="ar-eg">AR</a>
+      </div>
+      <button id="menuOpen" class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+  <aside class="mobile-nav" id="mobileNav" aria-hidden="true" aria-label="Mobile Navigation">
+    <button id="menuClose" class="menu-btn" aria-label="Close menu">✕</button>
+    <div class="lang"><a class="lang-toggle" href="../ar/contact.html" lang="ar" hreflang="ar-eg">العربية</a></div>
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./academics.html">Academics</a>
+    <a href="./admissions.html">Admissions</a>
+    <a href="./student-life.html">Student Life</a>
+    <a href="./news.html">News & Events</a>
+    <a aria-current="page" href="./contact.html">Contact</a>
+    <div style="margin-top:12px; display:flex; gap:8px;">
+      <a class="btn btn-secondary" href="https://calendly.com" target="_blank" rel="noopener">Book a Tour</a>
+      <a class="btn btn-primary" href="./admissions.html#enquire">Apply</a>
+    </div>
+  </aside>
+
+  <main id="main" role="main">
+    <section class="section" aria-labelledby="map">
+      <div class="container">
+        <h1 id="map">Our Campus</h1>
+        <div style="aspect-ratio: 16 / 9; background:#eee; border-radius: 12px; overflow: hidden;">
+          <iframe title="Google Map" src="https://maps.google.com/maps?q=Cairo%20Egypt&t=&z=13&ie=UTF8&iwloc=&output=embed" style="width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light" aria-labelledby="contact">
+      <div class="container">
+        <h2 id="contact">Contact Us</h2>
+        <div class="cards" style="grid-template-columns: repeat(3, minmax(0,1fr));">
+          <div class="card"><div class="body"><strong>Address</strong><p>123 Example St, Cairo, Egypt</p></div></div>
+          <div class="card"><div class="body"><strong>Phone</strong><p><a href="tel:+2020000000">+20 2 000 0000</a></p></div></div>
+          <div class="card"><div class="body"><strong>WhatsApp</strong><p><a href="https://wa.me/201000000000" target="_blank" rel="noopener">Chat with Admissions</a></p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="form">
+      <div class="container">
+        <h2 id="form">Contact Form</h2>
+        <form data-proto class="form" novalidate>
+          <div class="fields">
+            <label>Full name
+              <input type="text" name="name" required>
+            </label>
+            <label>Email
+              <input type="email" name="email" required>
+            </label>
+            <label>Phone
+              <input type="tel" name="phone" required>
+            </label>
+            <label>Message
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <label class="consent"><input type="checkbox" name="consent" required> I agree to the Privacy Policy</label>
+          </div>
+          <div class="actions">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </div>
+          <p class="form-error" role="alert" aria-live="polite"></p>
+        </form>
+        <div class="form-success hidden" role="status" aria-live="polite">
+          <h3>Message sent</h3>
+          <p>We’ll get back to you soon.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container grid">
+      <div>
+        <strong>International School Egypt</strong>
+        <p>123 Example St, Cairo, Egypt</p>
+        <p><a href="https://maps.google.com" target="_blank" rel="noopener">View on Google Maps</a></p>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <p>Phone: <a href="tel:+2020000000">+20 2 000 0000</a></p>
+        <p>WhatsApp: <a href="https://wa.me/201000000000" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+        <p>Email: <a href="mailto:admissions@example.eg">admissions@example.eg</a></p>
+      </div>
+      <div>
+        <strong>Quick Links</strong>
+        <p><a href="./admissions.html#fees">Fees</a> · <a href="./admissions.html#faqs">FAQs</a> · <a href="#">Policies</a></p>
+        <p><a href="../ar/contact.html" lang="ar" hreflang="ar-eg">العربية</a></p>
+      </div>
+      <div>
+        <strong>Legal</strong>
+        <p><a href="#privacy">Privacy</a> · <a href="#cookies">Cookies</a></p>
+        <p><small>© <span id="year"></span> International School Egypt</small></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../app.js" defer></script>
+</body>
+</html>

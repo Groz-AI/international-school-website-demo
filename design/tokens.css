@@ -1,0 +1,49 @@
+:root {
+  /* Brand palette */
+  --color-primary: #1D4ED8; /* Deep Royal Blue */
+  --color-secondary: #10B981; /* Emerald Green */
+  --color-accent: #EAB308; /* Warm Gold */
+  --color-neutral-dark: #111827; /* Text dark */
+  --color-neutral-light: #F3F4F6; /* Light Gray */
+  --color-bg: #FAFAFA; /* Off-white */
+  --color-success: #10B981; /* align success with secondary */
+  --color-danger: #DC2626;
+  --focus-outline: #EAB308;
+
+  --font-latin: Inter, 'Inter Variable', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --font-arabic: 'IBM Plex Sans Arabic', 'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+  --fs-h1: clamp(40px, 4vw, 48px);
+  --lh-h1: 1.15;
+  --fs-h2: clamp(28px, 3vw, 32px);
+  --lh-h2: 1.2;
+  --fs-h3: clamp(22px, 2.5vw, 24px);
+  --lh-h3: 1.25;
+  --fs-body: clamp(16px, 2vw, 18px);
+  --lh-body: 1.6;
+  --fs-small: 14px;
+  --lh-small: 1.5;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-9: 72px;
+  --space-12: 96px;
+
+  --radius-button: 8px;
+  --radius-card: 12px;
+
+  --shadow-card: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-hover: 0 8px 24px rgba(0,0,0,0.08);
+
+  --motion-duration: 180ms;
+  --motion-easing: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+html[dir="rtl"] * { direction: rtl; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

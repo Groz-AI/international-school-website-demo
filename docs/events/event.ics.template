@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//International School Egypt//Events//EN
+BEGIN:VEVENT
+UID:{id}@school.eg
+DTSTAMP:{created_utc}
+DTSTART:{start_utc}
+DTEND:{end_utc}
+SUMMARY:{title}
+LOCATION:{location}
+DESCRIPTION:{description} - More: {url}
+END:VEVENT
+END:VCALENDAR

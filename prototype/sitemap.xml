@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.eg/en/</loc></url>
+  <url><loc>https://example.eg/en/about</loc></url>
+  <url><loc>https://example.eg/en/academics</loc></url>
+  <url><loc>https://example.eg/en/admissions</loc></url>
+  <url><loc>https://example.eg/en/student-life</loc></url>
+  <url><loc>https://example.eg/en/news</loc></url>
+  <url><loc>https://example.eg/en/contact</loc></url>
+  <url><loc>https://example.eg/ar/</loc></url>
+  <url><loc>https://example.eg/ar/about</loc></url>
+  <url><loc>https://example.eg/ar/academics</loc></url>
+  <url><loc>https://example.eg/ar/admissions</loc></url>
+  <url><loc>https://example.eg/ar/student-life</loc></url>
+  <url><loc>https://example.eg/ar/news</loc></url>
+  <url><loc>https://example.eg/ar/contact</loc></url>
+</urlset>
