@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const tryLoadConfig = async () => {
-    const candidates = ['../config.json', './config.json'];
+    // Support both /prototype/* pages and root index.html
+    const candidates = ['prototype/config.json', '../config.json', './config.json'];
     for (const path of candidates) {
       try {
         const res = await fetch(path, { cache: 'no-store' });
@@ -45,8 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!m) { m = document.createElement('meta'); m.setAttribute('name', name); document.head.appendChild(m); }
     m.setAttribute('content', content);
   };
-  ensureHeadLink('icon', { href: '../assets/favicon.svg', type: 'image/svg+xml' });
-  ensureHeadLink('manifest', { href: '../site.webmanifest' });
+  const fromRoot = !location.pathname.includes('/prototype/');
+  const iconPath = fromRoot ? 'prototype/assets/favicon.svg' : '../assets/favicon.svg';
+  const manifestPath = fromRoot ? 'prototype/site.webmanifest' : '../site.webmanifest';
+  ensureHeadLink('icon', { href: iconPath, type: 'image/svg+xml' });
+  ensureHeadLink('manifest', { href: manifestPath });
   ensureMeta('theme-color', '#0C3B5E');
   // Fonts preconnect (best-effort, harmless if already present)
   const pre1 = document.createElement('link'); pre1.rel = 'preconnect'; pre1.href = 'https://fonts.googleapis.com'; document.head.appendChild(pre1);
